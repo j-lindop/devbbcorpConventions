@@ -31,7 +31,7 @@
          }
          .singleSuit {
             display: flex;
-            /*flex-direction: row;*/
+            /*dlex-direction: row;*/
             letter-spacing: 4px;
          }
          .suitSymbol {

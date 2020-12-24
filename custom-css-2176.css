@@ -1,0 +1,69 @@
+         .articleBodyHolder {
+            max-width: 860px;
+            width: 90%;
+            margin: 20px auto;
+            font-size: 22px;
+            line-height: 30px;
+         }
+         .customParagraphStyle {
+            line-height: 1.75em;
+            font-family: helvetica;
+            white-space: normal;
+         }
+         /* headings */
+         h1.articleMainHeading {
+            font-size: 42px;
+            text-decoration: underline;
+            font-family: helvetica;
+         }
+         h2.articleSubHeading {
+            font-size: 32px;
+            margin-top: 50px;
+            font-family: helvetica;
+         }
+         /* Single hand displays */
+         .singleHand {
+            display: flex;
+            flex-direction: column;
+            width: 12%;
+            margin: 25px auto;
+            font-family: helvetica;
+         }
+         .singleSuit {
+            display: flex;
+            flex-direction: row;
+            letter-spacing: 2px;
+         }
+         .suitSymbol {
+         	margin-right: 5px;
+         	width: 20px;
+         }
+         .suitSymbolRed {
+            margin-right: 5px;
+            width: 20px;
+            color: red;
+         }
+         /* Spans */
+         .red {
+            color: red;
+         }
+         .tens {
+            letter-spacing: normal;
+         }
+         /* Image formatting */
+         img {
+            max-width: 100%;
+         }
+        .contentBox {
+          box-sizing: content-box;
+        }
+         .centerImage {
+            display: block;
+            margin: 50px auto;
+         }
+         .centerImageDashed {
+            display: block;
+            margin: 50px auto;
+            border: dashed black;
+            padding: 10px;            
+         }

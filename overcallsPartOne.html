@@ -3,7 +3,23 @@
    <head>
       <link rel="stylesheet" href="styles.css">
       <style>
-         
+         .auctionDisplay {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            border: 2px solid black;
+         }
+         .compassDirections {
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid green;
+            border-bottom: 4px solid black;
+         }
+         .compassBids {
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid blue;
+         }
       </style>
    </head>
    <body>
@@ -116,7 +132,36 @@
          <p class="customParagraphStyle">You could still make a simple overcall of 2<span class="red">&hearts;</span> but you might not get unanimous agreement. The standard range for a two-level overcall is higher than for a one-level overcall ... typically a sound opening bid or better. Some players would consider this hand too weak. That’s more a matter of judgment than conventional  agreement, so there’s no requirement to enter anything on the convention card for simple overcalls at the two level.</p>
          <h2 class="articleSubHeading">Responses to an Overcall</h2>
          <p class="customParagraphStyle">Suppose you are South and the auction begins:</p>
+
+
+
+         <div class="auctionDisplay">
+            <div class="compassDirections">
+               <p>North</p>
+               <p>East</p>
+               <p>South</p>
+               <p>West</p>
+            </div>   
+            <div class="compassBids">
+               <p>1D</p>
+               <p>1H</p>
+               <p>Pass</p>
+               <p>?</p>
+            </div>
+            <div class="compassBids">
+               <p>1D</p>
+               <p>1H</p>
+               <p>Pass</p>
+               <p>?</p>
+            </div>
+         </div>
+
+
          <p class="customParagraphStyle">WEST NORTH EAST SOUTH 1<span class="red">&diams;</span> 1<span class="red">&hearts;</span> Pass ?</p>
+
+
+
+
          <p class="customParagraphStyle">Partner has made a simple one-level overcall of 1<span class="red">&hearts;</span> and you have this hand:</p>
          <div class="singleHand">
             <div class="singleSuit">

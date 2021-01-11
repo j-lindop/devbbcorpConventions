@@ -31,14 +31,14 @@ h2.articleSubHeading {
 }
 .singleSuit {
    display: flex;
-   letter-spacing: 2px;
+   letter-spacing: 5px;
 }
 .suitSymbol {
-	margin-right: 7px;
+	margin-right: 10px;
 	width: 20px;
 }
 .suitSymbolRed {
-   margin-right: 7px;
+   margin-right: 10px;
    width: 20px;
    color: red;
 }

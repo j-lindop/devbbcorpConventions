@@ -1,93 +1,93 @@
-	    .articleBodyHolder {
-            max-width: 860px;
-            width: 90%;
-            margin: 20px auto;
-            font-size: 22px;
-            line-height: 30px;
-         }
-         .customParagraphStyle {
-            line-height: 1.75em;
-            font-family: helvetica;
-            white-space: normal;
-         }
-         /* headings */
-         h1.articleMainHeading {
-            font-size: 42px;
-            text-decoration: underline;
-            font-family: helvetica;
-         }
-         h2.articleSubHeading {
-            font-size: 32px;
-            margin-top: 50px;
-            font-family: helvetica;
-         }
-         /* Single hand displays */
-         .singleHand {
-            display: flex;
-            flex-direction: column;
-            width: 12%;
-            margin: 25px auto;
-            font-family: helvetica;
-         }
-         .singleSuit {
-            display: flex;
-            /*dlex-direction: row;*/
-            letter-spacing: 4px;
-         }
-         .suitSymbol {
-         	margin-right: 7px;
-         	width: 20px;
-         }
-         .suitSymbolRed {
-            margin-right: 7px;
-            width: 20px;
-            color: red;
-         }
-         /* Traditional Auction Display */
-         .auctionDisplay {
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            width: 400px;
-            border: 1px solid black;
-            margin-top: 30px;
-            margin-bottom: 30px;
-         }
-         .compassDirections {
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 4px solid black;
-            border: 1px solid green;
-         }
-         .compassBids {
-            display: flex;
-            justify-content: space-between;
-         }
-         .bidWidth {
-            width: 75px;
-            text-align: center;
-            font-variant: small-caps;
-            padding: 0;
-            margin: 0;
-         }
-         /* Spans */
-         .red {
-            color: red;
-         }
-         .tens {
-            letter-spacing: normal;
-         }
-         /* Image formatting */
-         img {
-            max-width: 100%;
-         }
-         .centerImage {
-            display: block;
-            margin: 50px auto;
-         }
-         .centerImageDashed {
-            display: block;
-            margin: 50px auto;
-            border: dashed black;
-            padding: 10px;            
-         }
+.articleBodyHolder {
+   max-width: 860px;
+   width: 90%;
+   margin: 20px auto;
+   font-size: 22px;
+   line-height: 30px;
+}
+.customParagraphStyle {
+   line-height: 1.75em;
+   font-family: helvetica;
+   white-space: normal;
+}
+/* headings */
+h1.articleMainHeading {
+   font-size: 42px;
+   text-decoration: underline;
+   font-family: helvetica;
+}
+h2.articleSubHeading {
+   font-size: 32px;
+   margin-top: 50px;
+   font-family: helvetica;
+}
+/* Single hand displays */
+.singleHand {
+   display: flex;
+   flex-direction: column;
+   width: 12%;
+   margin: 25px auto;
+   font-family: helvetica;
+}
+.singleSuit {
+   display: flex;
+   /*dlex-direction: row;*/
+   letter-spacing: 4px;
+}
+.suitSymbol {
+	margin-right: 7px;
+	width: 20px;
+}
+.suitSymbolRed {
+   margin-right: 7px;
+   width: 20px;
+   color: red;
+}
+/* Traditional Auction Display */
+.auctionDisplay {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   border: 1px solid black;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.compassDirections {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 4px solid black;
+   border: 1px solid green;
+}
+.compassBids {
+   display: flex;
+   justify-content: space-between;
+}
+.bidWidth {
+   width: 75px;
+   text-align: center;
+   font-variant: small-caps;
+   padding: 0;
+   margin: 0;
+}
+/* Spans */
+.red {
+   color: red;
+}
+.tens {
+   letter-spacing: normal;
+}
+/* Image formatting */
+img {
+   max-width: 100%;
+}
+.centerImage {
+   display: block;
+   margin: 50px auto;
+}
+.centerImageDashed {
+   display: block;
+   margin: 50px auto;
+   border: dashed black;
+   padding: 10px;            
+}

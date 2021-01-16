@@ -21,6 +21,22 @@ h2.articleSubHeading {
    margin-top: 50px;
    font-family: helvetica;
 }
+
+h1.headingOne_article {
+   font-size: 42px;
+   text-decoration: underline;
+   font-family: helvetica;
+}
+h2.headingTwo_article {
+   font-size: 32px;
+   margin-top: 50px;
+   font-family: helvetica;
+}
+h1.headingThree_article {
+   font-size: 28px;
+   text-decoration: underline;
+   font-family: helvetica;
+}
 /* Single hand displays */
 .singleHand {
    display: flex;
@@ -71,6 +87,9 @@ h2.articleSubHeading {
 }
 /* Spans */
 .red {
+   color: red;
+}
+.lorim {
    color: red;
 }
 .tens {

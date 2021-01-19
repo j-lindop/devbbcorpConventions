@@ -32,10 +32,10 @@ h2.headingTwo_article {
    margin-top: 50px;
    font-family: helvetica;
 }
-h1.headingThree_article {
+h3.headingThree_article {
    font-size: 28px;
-   text-decoration: underline;
    font-family: helvetica;
+   font-style: italic;
 }
 /* Single hand displays */
 .singleHand {
@@ -91,6 +91,11 @@ h1.headingThree_article {
 }
 .lorim {
    color: red;
+}
+.insert {
+   color: red;
+   padding: 5px;
+   border: 1px solid black;
 }
 .tens {
    letter-spacing: normal;

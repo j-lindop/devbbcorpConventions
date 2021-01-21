@@ -37,6 +37,10 @@ h3.headingThree_article {
    font-family: helvetica;
    font-style: italic;
 }
+.subheading_article {
+   font-size: 28px;
+   font-family: helvetica;
+}
 /* Single hand displays */
 .singleHand {
    display: flex;

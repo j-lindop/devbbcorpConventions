@@ -28,8 +28,8 @@ h1.headingOne_article {
    font-family: helvetica;
 }
 h2.headingTwo_article {
-   font-size: 32px;
    margin-top: 50px;
+   font-size: 32px;
    font-family: helvetica;
 }
 h3.headingThree_article {
@@ -64,9 +64,9 @@ h3.headingThree_article {
 }
 /* Traditional Auction Display */
 .auctionDisplay {
-   margin: 0 auto;
    display: flex;
    flex-direction: column;
+   margin: 0 auto;
    width: 400px;
    border: 1px solid black;
    margin-top: 30px;
@@ -109,7 +109,7 @@ img {
    max-width: 100%;
 }
 .contentBox {
- box-sizing: content-box;
+   box-sizing: content-box;
 }
 .centerImage {
    display: block;

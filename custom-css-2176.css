@@ -67,15 +67,13 @@ h3.headingThree_article {
    flex-direction: column;
    margin: 0 auto;
    width: 400px;
-   border: 1px solid black;
    margin-top: 30px;
    margin-bottom: 30px;
 }
 .compassDirections {
    display: flex;
    justify-content: space-between;
-   border-bottom: 4px solid black;
-   border: 1px solid green;
+   font-variant: small-caps;
 }
 .compassBids {
    display: flex;
@@ -84,7 +82,7 @@ h3.headingThree_article {
 .bidWidth {
    width: 75px;
    text-align: center;
-   font-variant: small-caps;
+
    padding: 0;
    margin: 0;
 }

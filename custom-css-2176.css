@@ -1,7 +1,7 @@
 .articleBodyHolder {
    max-width: 860px;
    width: 90%;
-   margin: 20px auto;
+   margin: 10px auto;
    font-size: 22px;
    line-height: 30px;
 }
@@ -11,14 +11,9 @@
    white-space: normal;
 }
 /* headings */
-h1.articleMainHeading {
-   font-size: 42px;
-   text-decoration: underline;
-   font-family: helvetica;
-}
-h2.articleSubHeading {
-   font-size: 32px;
-   margin-top: 50px;
+.articleTitle {
+   padding-top: 75px;
+   font-size: 52px;
    font-family: helvetica;
 }
 h1.headingOne_article {
@@ -40,6 +35,18 @@ h3.headingThree_article {
    font-size: 28px;
    font-family: helvetica;
 }
+/*
+h1.articleMainHeading {
+   font-size: 42px;
+   text-decoration: underline;
+   font-family: helvetica;
+}
+h2.articleSubHeading {
+   font-size: 32px;
+   margin-top: 50px;
+   font-family: helvetica;
+}
+*/
 /* Single hand displays */
 .singleHand {
    display: flex;
@@ -82,7 +89,6 @@ h3.headingThree_article {
 .bidWidth {
    width: 75px;
    text-align: center;
-
    padding: 0;
    margin: 0;
 }
@@ -118,3 +124,15 @@ img {
    border: dashed black;
    padding: 10px;            
 }
+.centerImageSolid {
+   display: block;
+   margin: 50px auto;
+   border: solid black;
+   padding: 10px;            
+}
+
+
+
+
+
+

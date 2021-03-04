@@ -8,6 +8,8 @@
 .customParagraphStyle {
    line-height: 1.75em;
    font-family: helvetica;
+   color: black;
+   opacity: 0.9;
    white-space: normal;
 }
 /* headings */
@@ -35,18 +37,6 @@ h3.headingThree_article {
    font-size: 28px;
    font-family: helvetica;
 }
-/*
-h1.articleMainHeading {
-   font-size: 42px;
-   text-decoration: underline;
-   font-family: helvetica;
-}
-h2.articleSubHeading {
-   font-size: 32px;
-   margin-top: 50px;
-   font-family: helvetica;
-}
-*/
 /* Single hand displays */
 .singleHand {
    display: flex;
@@ -54,6 +44,7 @@ h2.articleSubHeading {
    width: 12%;
    margin: 25px auto;
    font-family: helvetica;
+   color: black;
 }
 .singleSuit {
    display: flex;
@@ -111,9 +102,6 @@ h2.articleSubHeading {
 img {
    max-width: 100%;
 }
-.contentBox {
-   box-sizing: content-box;
-}
 .centerImage {
    display: block;
    margin: 50px auto;
@@ -122,7 +110,8 @@ img {
    display: block;
    margin: 50px auto;
    border: dashed black;
-   padding: 10px;            
+   padding: 10px;    
+   opacity: 0.8;        
 }
 .centerImageSolid {
    display: block;
